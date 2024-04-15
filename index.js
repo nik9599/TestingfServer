@@ -3,7 +3,7 @@ const app = express();
 const Router = express.Router();
 
 Router.get("/", (req, res) => {
-    res.status(200).json({ msg: "this is setting" });
+    res.status(200).json({ msg: "this is setting hello " });
 });
 
 app.use("/", Router);
